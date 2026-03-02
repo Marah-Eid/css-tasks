@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background: white;
+}
+
+/* Grid container */
+.grid {
+  width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr; 
+  gap: 5px;
+}
+
+
+.box {
+  height: 140px;
+}
+
+
+.black {
+  background: black;
+  grid-column: 1 / 3;
+  height: 60px;
+}
+
+
+.orange {
+  background: orange;
+  height: 220px;
+}
+
+.green {
+  background: green;
+  height: 220px;
+}
+
+
+.blue {
+  background: blue;
+  grid-column: 1 / 3;
+  height: 120px;
+}
