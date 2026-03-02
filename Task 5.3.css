@@ -1,0 +1,28 @@
+body {
+  font-family: "Times New Roman", serif;
+  margin: 20px;
+}
+
+
+h2 {
+  margin-bottom: 20px;
+}
+
+
+.content {
+  width: 65%;
+  line-height: 1.6;
+}
+
+
+.fixed-image {
+  position: fixed;
+  top: 120px;
+  left: 75%;
+  width: 220px;
+ }
+
+.fixed-image img {
+  width: 100%;
+  
+}
