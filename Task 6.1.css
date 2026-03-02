@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", serif;
+ 
+}
+
+
+.container {
+  display: flex;
+  height: 100vh;
+  
+}
+
+.left, .right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-size: 20px;
+}
+
+.left {
+  background: orange;
+}
+
+.right {
+  background: blue;
+}
