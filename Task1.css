@@ -1,0 +1,43 @@
+body {
+    background-color: #dcdcdc;
+    font-family: serif;
+}
+
+.container {
+    width: 500px;
+    margin: 60px auto;
+    border: 2px solid black;
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: yellow;
+    border: 1px solid gray;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: left;
+}
+
+.highlight {
+    text-align: center;
+    background-color: #f4a6b3;
+}
+
+.best {
+    font-weight: bold;
+}
+
+.footer {
+    font-weight: bold;
+    text-align: center;
+}
