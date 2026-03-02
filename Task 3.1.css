@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.bg {
+  min-height: 100vh;
+  background: #cfcfe8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card {
+  width: 420px;
+  background: #8e8ccf;
+  padding: 40px 35px;
+  border-radius: 15px;
+  box-shadow: 0 15px 50px #8e8ccf;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+}
+
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.row input {
+  width: 50%;
+}
+
+
+.terms {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  font-size: 13px;
+  margin: 10px 0 20px;
+}
+
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background: #a7a6a6;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.login {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.login a {
+  color: white;
+  text-decoration: underline;
+}
+
+.copy {
+  margin-top: 15px;
+  font-size: 12px;
+  opacity: 0.8;
+}
