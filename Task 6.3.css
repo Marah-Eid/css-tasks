@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+}
+
+
+.container {
+  width: 900px;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: 10px solid #c79b1b;
+}
+
+
+.box {
+  width: 25%;         
+  height: 120px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 50px;
+  color: white;
+}
+
+.b1  { background: #5fb7a4; }
+.b2  { background: #3498db; }
+.b3  { background: #9b59b6; }
+.b4  { background: #34495e; }
+
+.b5  { background: #f1c40f; }
+.b6  { background: #e67e22; }
+.b7  { background: #e74c3c; }
+.b8  { background: #bdc3c7; color: #555; }
+
+.b9  { background: #2ecc71; }
+.b10 { background: #16a085; }
