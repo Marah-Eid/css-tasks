@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 15px;
+  background: #f6f6c8;
+  font-family: "Times New Roman", serif;
+}
+
+h1 {
+  margin: 0 0 15px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.article {
+  width: 720px;
+  background: #fff;
+  border: 1px solid #888;
+  padding: 12px 12px 20px;
+  margin: 0 0 20px;
+}
+
+.article h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.article p {
+  margin: 0;
+  line-height: 1.4;
+  font-size: 13px;
+}
+
+
+.highlight {
+  background: #ffeb3b;
+  padding: 1px 3px;
+  font-weight: bold;
+}
+
+
+.danger {
+  border: 2px dashed #d9534f;
+  color: #d9534f;
+}
+
+.danger h2 {
+  color: red;
+}
